@@ -4,6 +4,20 @@
     <meta charset="utf-8">
     <title>Clark's Site | Dogs</title>
     <style>
+        .grid-container {
+          background-color: aqua;
+          grid-template-columns: auto auto auto;
+          display: grid;
+          padding: 20px;
+        }
+        .grid-item {
+          background-color: royalblue;
+          border: 1px solid black;
+          padding: 20px;
+          font-size: 30px;
+          font-family: 'Times New Roman', Times, serif;
+          text-align: center;
+        }
         table, th, td {
           border:1px solid black;
           border-collapse: collapse;
@@ -11,11 +25,31 @@
         </style>
   </head>
   <body>
-    <h1 style="color:rgb(255, 0, 0)">I LOVE DOGS</h1>
+    <h1 style="color:rgb(255, 0, 0);padding:20px; border:2px solid greenyellow;text-align: center; font-family: monospace;">I LOVE DOGS</h1>
     <h2 style="color:pink"><i>dogs are the best</i></h2></h2>
+    <div style="border: dashed salmon">
+      <h3 style="font-family: Cambria, serif; text-align: center;">dogs are...</h3>
+      <ol style="list-style: none; text-align: center;">
+        <li style="display: inline; border: 2px solid goldenrod;">Cute</li>
+        <li style="display: inline; border: 2px solid maroon;">Fluffy</li>
+        <li style="display: inline; border: 2px solid palevioletred;">Adorable</li>
+      </ol>
+    </div>
+    <br>
     <img src="https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg" alt="cute golden retriever">
     <br>
     <img src="https://goldendogfarm.com/cdn/shop/files/C99G1038_2048x.jpg?v=1698243821" alt="group of doggos" width="500" height="400">
     <a href="index.html"><br>Click here to go back to about</a>
+    <br>
+    <br>
+    <h2><u>Cute dog names</u></h2>
+    <div class="grid-container">
+      <div class="grid-item">Finnegan</div>
+      <div class="grid-item">Fido</div>
+      <div class="grid-item">Ferris</div>
+      <div class="grid-item">Fort Knox</div>
+      <div class="grid-item">Foghorn</div>
+      <div class="grid-item">FooFighter</div>
+    </div>
   </body>
 </html>
